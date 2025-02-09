@@ -6,8 +6,6 @@ console.log(import.meta.url)
 
 const databasePath = new URL('../db.json', import.meta.url)
 
-console.log(databasePath)
-
 export class Database{
     #database = {}
 
